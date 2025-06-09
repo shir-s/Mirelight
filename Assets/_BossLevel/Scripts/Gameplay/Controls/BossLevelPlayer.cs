@@ -8,8 +8,8 @@ namespace BossLevel.Gameplay.Controls
     public class BossLevelPlayer: BossLevelBaseMono 
     {
         [SerializeField] private float _speed = 5f;
-        [SerializeField] private GameObject _projectilePrefab; // הפריפאב של הירייה
-        [SerializeField] private Transform _firePoint; // נקודת הירי
+        [SerializeField] private GameObject _projectilePrefab;
+        [SerializeField] private Transform _firePoint;
         [SerializeField] private float _projectileSpeed = 10f;
         
         public void Update()
@@ -24,7 +24,7 @@ namespace BossLevel.Gameplay.Controls
             
             var movement = new Vector3(horizontal,vertical, 0).normalized;
             
-            transform.position += movement * Time.deltaTime * _speed;
+            transform.position += movement * (Time.deltaTime * _speed);
             
             if (Input.GetKeyDown(KeyCode.Space))
             {
