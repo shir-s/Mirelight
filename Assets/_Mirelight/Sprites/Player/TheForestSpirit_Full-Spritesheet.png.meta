@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: 6233bebd5c16b054f91b1801d94dc212
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1667798912531084129
+    second: TheForestSpirit_Full-Spritesheet_0
+  - first:
+      213: -5310707518509841059
+    second: TheForestSpirit_Full-Spritesheet_1
+  - first:
+      213: -1585989322290394816
+    second: TheForestSpirit_Full-Spritesheet_2
+  - first:
+      213: -6148645504676398076
+    second: TheForestSpirit_Full-Spritesheet_3
+  - first:
+      213: 4150994132137670134
+    second: TheForestSpirit_Full-Spritesheet_4
+  - first:
+      213: -7635863798436513093
+    second: TheForestSpirit_Full-Spritesheet_5
+  - first:
+      213: -6862661017362323013
+    second: TheForestSpirit_Full-Spritesheet_6
+  - first:
+      213: -4531782227572829472
+    second: TheForestSpirit_Full-Spritesheet_7
+  - first:
+      213: -2229325496369378008
+    second: TheForestSpirit_Full-Spritesheet_8
+  - first:
+      213: 8996827052103817979
+    second: TheForestSpirit_Full-Spritesheet_9
+  - first:
+      213: 1228873578127899392
+    second: TheForestSpirit_Full-Spritesheet_10
+  - first:
+      213: 483276304824006119
+    second: TheForestSpirit_Full-Spritesheet_11
+  - first:
+      213: 1652039124171161981
+    second: TheForestSpirit_Full-Spritesheet_12
+  - first:
+      213: -4144631539621809608
+    second: TheForestSpirit_Full-Spritesheet_13
+  - first:
+      213: -7155119842328651212
+    second: TheForestSpirit_Full-Spritesheet_14
+  - first:
+      213: -9149807155532000046
+    second: TheForestSpirit_Full-Spritesheet_15
+  - first:
+      213: -7277515414730447054
+    second: TheForestSpirit_Full-Spritesheet_16
+  - first:
+      213: 3896768155024759594
+    second: TheForestSpirit_Full-Spritesheet_17
+  - first:
+      213: 1393820061205611644
+    second: TheForestSpirit_Full-Spritesheet_18
+  - first:
+      213: 4551109130145792441
+    second: TheForestSpirit_Full-Spritesheet_19
+  - first:
+      213: 4310780657931947095
+    second: TheForestSpirit_Full-Spritesheet_20
+  - first:
+      213: -342141098833930706
+    second: TheForestSpirit_Full-Spritesheet_21
+  - first:
+      213: 6333501218870507890
+    second: TheForestSpirit_Full-Spritesheet_22
+  - first:
+      213: -6586704604758758963
+    second: TheForestSpirit_Full-Spritesheet_23
+  - first:
+      213: -275757549416700153
+    second: TheForestSpirit_Full-Spritesheet_24
+  - first:
+      213: -5114327469589874221
+    second: TheForestSpirit_Full-Spritesheet_25
+  - first:
+      213: -2319616326850780627
+    second: TheForestSpirit_Full-Spritesheet_26
+  - first:
+      213: -1066266892258043274
+    second: TheForestSpirit_Full-Spritesheet_27
+  - first:
+      213: -939588427463582619
+    second: TheForestSpirit_Full-Spritesheet_28
+  - first:
+      213: -8101883045312754525
+    second: TheForestSpirit_Full-Spritesheet_29
+  - first:
+      213: -4057842021231909465
+    second: TheForestSpirit_Full-Spritesheet_30
+  - first:
+      213: 3901254862650400065
+    second: TheForestSpirit_Full-Spritesheet_31
+  - first:
+      213: 6903437354554570765
+    second: TheForestSpirit_Full-Spritesheet_32
+  - first:
+      213: -4988893027302886155
+    second: TheForestSpirit_Full-Spritesheet_33
+  - first:
+      213: -7529931866155448969
+    second: TheForestSpirit_Full-Spritesheet_34
+  - first:
+      213: 7560393608621411170
+    second: TheForestSpirit_Full-Spritesheet_35
+  - first:
+      213: 8363243919472685368
+    second: TheForestSpirit_Full-Spritesheet_36
+  - first:
+      213: -8638266618877798506
+    second: TheForestSpirit_Full-Spritesheet_37
+  - first:
+      213: 6683811040734422017
+    second: TheForestSpirit_Full-Spritesheet_38
+  - first:
+      213: 3326206551310474015
+    second: TheForestSpirit_Full-Spritesheet_39
+  - first:
+      213: 3410498956278466485
+    second: TheForestSpirit_Full-Spritesheet_40
+  - first:
+      213: 6205301784262904734
+    second: TheForestSpirit_Full-Spritesheet_41
+  - first:
+      213: -1035412178598959990
+    second: TheForestSpirit_Full-Spritesheet_42
+  - first:
+      213: -8450598996881063370
+    second: TheForestSpirit_Full-Spritesheet_43
+  - first:
+      213: 63687471372958585
+    second: TheForestSpirit_Full-Spritesheet_44
+  - first:
+      213: -1334763003804397686
+    second: TheForestSpirit_Full-Spritesheet_45
+  - first:
+      213: -6597207064583463750
+    second: TheForestSpirit_Full-Spritesheet_46
+  - first:
+      213: -7286930287022643719
+    second: TheForestSpirit_Full-Spritesheet_47
+  - first:
+      213: -4013519389923989017
+    second: TheForestSpirit_Full-Spritesheet_48
+  - first:
+      213: 8271694512841843924
+    second: TheForestSpirit_Full-Spritesheet_49
+  - first:
+      213: 9168354774034037771
+    second: TheForestSpirit_Full-Spritesheet_50
+  - first:
+      213: 3780203587194866400
+    second: TheForestSpirit_Full-Spritesheet_51
+  - first:
+      213: -4713778032734169009
+    second: TheForestSpirit_Full-Spritesheet_52
+  - first:
+      213: 3874857122888528710
+    second: TheForestSpirit_Full-Spritesheet_53
+  - first:
+      213: -8820424055090979477
+    second: TheForestSpirit_Full-Spritesheet_54
+  - first:
+      213: 3419908331418015893
+    second: TheForestSpirit_Full-Spritesheet_55
+  - first:
+      213: -6697699100522403165
+    second: TheForestSpirit_Full-Spritesheet_56
+  - first:
+      213: 3448201536612314971
+    second: TheForestSpirit_Full-Spritesheet_57
+  - first:
+      213: 3879698313213271096
+    second: TheForestSpirit_Full-Spritesheet_58
+  - first:
+      213: 5188459665934089230
+    second: TheForestSpirit_Full-Spritesheet_59
+  - first:
+      213: 1647276687064085578
+    second: TheForestSpirit_Full-Spritesheet_60
+  - first:
+      213: -4596880727894708898
+    second: TheForestSpirit_Full-Spritesheet_61
+  - first:
+      213: -8092385810722604758
+    second: TheForestSpirit_Full-Spritesheet_62
+  - first:
+      213: -5451541180279149758
+    second: TheForestSpirit_Full-Spritesheet_63
+  - first:
+      213: 6012474153374630872
+    second: TheForestSpirit_Full-Spritesheet_64
+  - first:
+      213: 4903019007264265332
+    second: TheForestSpirit_Full-Spritesheet_65
+  - first:
+      213: 324427508669397791
+    second: TheForestSpirit_Full-Spritesheet_66
+  - first:
+      213: 3548647787127114631
+    second: TheForestSpirit_Full-Spritesheet_67
+  - first:
+      213: 6644474009266643619
+    second: TheForestSpirit_Full-Spritesheet_68
+  - first:
+      213: 9120053725413695079
+    second: TheForestSpirit_Full-Spritesheet_69
+  - first:
+      213: -2119986550390306358
+    second: TheForestSpirit_Full-Spritesheet_70
+  - first:
+      213: -6550814920287085129
+    second: TheForestSpirit_Full-Spritesheet_71
+  - first:
+      213: 5564963748689078219
+    second: TheForestSpirit_Full-Spritesheet_72
+  - first:
+      213: 6890614056057264521
+    second: TheForestSpirit_Full-Spritesheet_73
+  - first:
+      213: 7126718720048643255
+    second: TheForestSpirit_Full-Spritesheet_74
+  - first:
+      213: -4843438644183049787
+    second: TheForestSpirit_Full-Spritesheet_75
+  - first:
+      213: 8383381234097097472
+    second: TheForestSpirit_Full-Spritesheet_76
+  - first:
+      213: 6586100360977310222
+    second: TheForestSpirit_Full-Spritesheet_77
+  - first:
+      213: -9054013397865603240
+    second: TheForestSpirit_Full-Spritesheet_78
+  - first:
+      213: -7933066200460253658
+    second: TheForestSpirit_Full-Spritesheet_79
+  - first:
+      213: -370245598968752431
+    second: TheForestSpirit_Full-Spritesheet_80
+  - first:
+      213: 7735147061177371936
+    second: TheForestSpirit_Full-Spritesheet_81
+  - first:
+      213: 4560701447554697026
+    second: TheForestSpirit_Full-Spritesheet_82
+  - first:
+      213: -3403666871014694102
+    second: TheForestSpirit_Full-Spritesheet_83
+  - first:
+      213: -566319206603350017
+    second: TheForestSpirit_Full-Spritesheet_84
+  - first:
+      213: 1182025787159094710
+    second: TheForestSpirit_Full-Spritesheet_85
+  - first:
+      213: -8927854672506292528
+    second: TheForestSpirit_Full-Spritesheet_86
+  - first:
+      213: -5001643737563544057
+    second: TheForestSpirit_Full-Spritesheet_87
+  - first:
+      213: -4675211584157309969
+    second: TheForestSpirit_Full-Spritesheet_88
+  - first:
+      213: -902400294808710321
+    second: TheForestSpirit_Full-Spritesheet_89
+  - first:
+      213: -4488489023552925221
+    second: TheForestSpirit_Full-Spritesheet_90
+  - first:
+      213: 9007633921429156531
+    second: TheForestSpirit_Full-Spritesheet_91
+  - first:
+      213: 1899834235040501545
+    second: TheForestSpirit_Full-Spritesheet_92
+  - first:
+      213: 2918432150682146901
+    second: TheForestSpirit_Full-Spritesheet_93
+  - first:
+      213: -5347169828918189761
+    second: TheForestSpirit_Full-Spritesheet_94
+  - first:
+      213: 6960241327883938329
+    second: TheForestSpirit_Full-Spritesheet_95
+  - first:
+      213: 3157957267898226973
+    second: TheForestSpirit_Full-Spritesheet_96
+  - first:
+      213: -5807909138270499302
+    second: TheForestSpirit_Full-Spritesheet_97
+  - first:
+      213: -7796245466183897370
+    second: TheForestSpirit_Full-Spritesheet_98
+  - first:
+      213: -3470042534419366367
+    second: TheForestSpirit_Full-Spritesheet_99
+  - first:
+      213: -2972239636797423488
+    second: TheForestSpirit_Full-Spritesheet_100
+  - first:
+      213: -8898465623239344980
+    second: TheForestSpirit_Full-Spritesheet_101
+  - first:
+      213: -3731454770237935488
+    second: TheForestSpirit_Full-Spritesheet_102
+  - first:
+      213: 8935178094263227144
+    second: TheForestSpirit_Full-Spritesheet_103
+  - first:
+      213: -2886127172051537490
+    second: TheForestSpirit_Full-Spritesheet_104
+  - first:
+      213: -2067892262898201075
+    second: TheForestSpirit_Full-Spritesheet_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 347
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c4dc5b9b9cad8e0800000000000000
+      internalID: -1667798912531084129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 347
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55893536a39c46b0800000000000000
+      internalID: -5310707518509841059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 347
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04981534d1f6df9e0800000000000000
+      internalID: -1585989322290394816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 347
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cf5fb8d7f9baaa0800000000000000
+      internalID: -6148645504676398076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 347
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5fbc69b2b4b9930800000000000000
+      internalID: 4150994132137670134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 347
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba3de4f456f70690800000000000000
+      internalID: -7635863798436513093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 347
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9a2362a2ee2c0a0800000000000000
+      internalID: -6862661017362323013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2d71e0310eb11c0800000000000000
+      internalID: -4531782227572829472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 318
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d8e24c548df01e0800000000000000
+      internalID: -2229325496369378008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 318
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfad54269862bdc70800000000000000
+      internalID: 8996827052103817979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b3d2a2206dd0110800000000000000
+      internalID: 1228873578127899392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 289
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5f56d1d31f4b600800000000000000
+      internalID: 483276304824006119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 289
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71054f94d83de610800000000000000
+      internalID: 1652039124171161981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 289
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83236fbe29f4b76c0800000000000000
+      internalID: -4144631539621809608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 289
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ad6a0b968e3bc90800000000000000
+      internalID: -7155119842328651212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 289
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4103baeda550180800000000000000
+      internalID: -9149807155532000046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 289
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237ef89c942110b90800000000000000
+      internalID: -7277515414730447054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 289
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b1e44bdf9141630800000000000000
+      internalID: 3896768155024759594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 300
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7449fcf5f7d75310800000000000000
+      internalID: 1393820061205611644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 303
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1806c14a9c82f30800000000000000
+      internalID: 4551109130145792441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 289
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c88ac3b28f2db30800000000000000
+      internalID: 4310780657931947095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 289
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2611fcbb78704bf0800000000000000
+      internalID: -342141098833930706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 289
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279b74f5dcd15e750800000000000000
+      internalID: 6333501218870507890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 289
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9ace05f035794a0800000000000000
+      internalID: -6586704604758758963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 289
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707a2e648ff4c2cf0800000000000000
+      internalID: -275757549416700153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 260
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9b21663424609b0800000000000000
+      internalID: -5114327469589874221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 260
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22ecd69d311fcfd0800000000000000
+      internalID: -2319616326850780627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 260
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a133b29ebd331f0800000000000000
+      internalID: -1066266892258043274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 260
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c17f9ad49e5f2f0800000000000000
+      internalID: -939588427463582619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac8f50cb44509f80800000000000000
+      internalID: -8101883045312754525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 231
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5a1d95e26afa7c0800000000000000
+      internalID: -4057842021231909465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 231
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dda8ab0aa042630800000000000000
+      internalID: 3901254862650400065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 231
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08336fa2bfedcf50800000000000000
+      internalID: 6903437354554570765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 231
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f430355934e3cab0800000000000000
+      internalID: -4988893027302886155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77509eeecde408790800000000000000
+      internalID: -7529931866155448969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 202
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b430c2ee9ebe860800000000000000
+      internalID: 7560393608621411170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 202
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8317d1ec806301470800000000000000
+      internalID: 8363243919472685368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6979ca21746be1880800000000000000
+      internalID: -8638266618877798506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1042fccaabaa1cc50800000000000000
+      internalID: 6683811040734422017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b10744c3f092e20800000000000000
+      internalID: 3326206551310474015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b781db2bb6845f20800000000000000
+      internalID: 3410498956278466485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b861f7819ad1650800000000000000
+      internalID: 6205301784262904734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84ee720c1a71a1f0800000000000000
+      internalID: -1035412178598959990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632c1ab4cf079ba80800000000000000
+      internalID: -8450598996881063370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bf3d3fa6342e000800000000000000
+      internalID: 63687471372958585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 202
+        width: 56
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fc7e2be18f97de0800000000000000
+      internalID: -1334763003804397686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 202
+        width: 51
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc1ec5d0230274a0800000000000000
+      internalID: -6597207064583463750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 202
+        width: 51
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5eaf2038f9fda90800000000000000
+      internalID: -7286930287022643719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 202
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e92070216d1d48c0800000000000000
+      internalID: -4013519389923989017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 202
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d46c788556fac270800000000000000
+      internalID: 8271694512841843924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 202
+        width: 59
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c3e09471a8c3f70800000000000000
+      internalID: 9168354774034037771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 202
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea4869522bf57430800000000000000
+      internalID: 3780203587194866400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 173
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4817d89adb459eb0800000000000000
+      internalID: -4713778032734169009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 173
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643b92df50246c530800000000000000
+      internalID: 3874857122888528710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 173
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dddf3fd0f879580800000000000000
+      internalID: -8820424055090979477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 173
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598d19a0284f57f20800000000000000
+      internalID: 3419908331418015893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 173
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aaa8ec672efc03a0800000000000000
+      internalID: -6697699100522403165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fabb737097adf20800000000000000
+      internalID: 3448201536612314971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 138
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c52c27f0577d530800000000000000
+      internalID: 3879698313213271096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 144
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c7177939c110840800000000000000
+      internalID: 5188459665934089230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 144
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44bc335b6d4cd610800000000000000
+      internalID: 1647276687064085578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 144
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d2ff255599430c0800000000000000
+      internalID: -4596880727894708898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 144
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29b77efaf112bf80800000000000000
+      internalID: -8092385810722604758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 139
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b2c071e2c3854b0800000000000000
+      internalID: -5451541180279149758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 144
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3cc151369907350800000000000000
+      internalID: 6012474153374630872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 139
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47499fe4fc50b0440800000000000000
+      internalID: 4903019007264265332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 144
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bba99a919908400800000000000000
+      internalID: 324427508669397791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 138
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b00b06c545f3130800000000000000
+      internalID: 3548647787127114631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 144
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a267a158e9e53c50800000000000000
+      internalID: 6644474009266643619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 144
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ed2cb0b80f09e70800000000000000
+      internalID: 9120053725413695079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 144
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9416fe67b4492e0800000000000000
+      internalID: -2119986550390306358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 144
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd95f6a984d615a0800000000000000
+      internalID: -6550814920287085129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 144
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7e9848b09ba3d40800000000000000
+      internalID: 5564963748689078219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9895b97d9f060af50800000000000000
+      internalID: 6890614056057264521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc30aabae037e260800000000000000
+      internalID: 7126718720048643255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9d11af636a8ccb0800000000000000
+      internalID: -4843438644183049787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b880bb0d0c75470800000000000000
+      internalID: 8383381234097097472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 129
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02ef173267866b50800000000000000
+      internalID: 6586100360977310222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fd79ce8cea95280800000000000000
+      internalID: -9054013397865603240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626a8e5625618e190800000000000000
+      internalID: -7933066200460253658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6d0d1e69f9cdaf0800000000000000
+      internalID: -370245598968752431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d42e20543c85b60800000000000000
+      internalID: 7735147061177371936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 129
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2478b1c8dcdda4f30800000000000000
+      internalID: 4560701447554697026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a236763a30fb3c0d0800000000000000
+      internalID: -3403666871014694102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 132
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff1dec9ea70428f0800000000000000
+      internalID: -566319206603350017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b528f6d036676010800000000000000
+      internalID: 1182025787159094710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d673f62a73e91480800000000000000
+      internalID: -8927854672506292528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706c7714587969ab0800000000000000
+      internalID: -5001643737563544057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe32384a5df4e1fb0800000000000000
+      internalID: -4675211584157309969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4318b686b70a73f0800000000000000
+      internalID: -902400294808710321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 115
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd153ec930fa5b1c0800000000000000
+      internalID: -4488489023552925221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 115
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b23b89b35b810d70800000000000000
+      internalID: 9007633921429156531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f07b7cb219d5a10800000000000000
+      internalID: 1899834235040501545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 115
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5581d7a149a508820800000000000000
+      internalID: 2918432150682146901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 115
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3125a10f590bc5b0800000000000000
+      internalID: -5347169828918189761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 115
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae38b5c9eb79060800000000000000
+      internalID: 6960241327883938329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 115
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19dfe0576153db20800000000000000
+      internalID: 3157957267898226973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e44ad0969266fa0800000000000000
+      internalID: -5807909138270499302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 86
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eeeb560e0c2ec390800000000000000
+      internalID: -7796245466183897370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12eff6433bee7dfc0800000000000000
+      internalID: -3470042534419366367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 57
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0808a554ccb70c6d0800000000000000
+      internalID: -2972239636797423488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac3bc869ac428480800000000000000
+      internalID: -8898465623239344980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 28
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080f78418a5373cc0800000000000000
+      internalID: -3731454770237935488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8035969d221200c70800000000000000
+      internalID: 8935178094263227144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1f34dd0aa62f7d0800000000000000
+      internalID: -2886127172051537490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheForestSpirit_Full-Spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e8c2c61fe5d43e0800000000000000
+      internalID: -2067892262898201075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TheForestSpirit_Full-Spritesheet_0: -1667798912531084129
+      TheForestSpirit_Full-Spritesheet_1: -5310707518509841059
+      TheForestSpirit_Full-Spritesheet_10: 1228873578127899392
+      TheForestSpirit_Full-Spritesheet_100: -2972239636797423488
+      TheForestSpirit_Full-Spritesheet_101: -8898465623239344980
+      TheForestSpirit_Full-Spritesheet_102: -3731454770237935488
+      TheForestSpirit_Full-Spritesheet_103: 8935178094263227144
+      TheForestSpirit_Full-Spritesheet_104: -2886127172051537490
+      TheForestSpirit_Full-Spritesheet_105: -2067892262898201075
+      TheForestSpirit_Full-Spritesheet_11: 483276304824006119
+      TheForestSpirit_Full-Spritesheet_12: 1652039124171161981
+      TheForestSpirit_Full-Spritesheet_13: -4144631539621809608
+      TheForestSpirit_Full-Spritesheet_14: -7155119842328651212
+      TheForestSpirit_Full-Spritesheet_15: -9149807155532000046
+      TheForestSpirit_Full-Spritesheet_16: -7277515414730447054
+      TheForestSpirit_Full-Spritesheet_17: 3896768155024759594
+      TheForestSpirit_Full-Spritesheet_18: 1393820061205611644
+      TheForestSpirit_Full-Spritesheet_19: 4551109130145792441
+      TheForestSpirit_Full-Spritesheet_2: -1585989322290394816
+      TheForestSpirit_Full-Spritesheet_20: 4310780657931947095
+      TheForestSpirit_Full-Spritesheet_21: -342141098833930706
+      TheForestSpirit_Full-Spritesheet_22: 6333501218870507890
+      TheForestSpirit_Full-Spritesheet_23: -6586704604758758963
+      TheForestSpirit_Full-Spritesheet_24: -275757549416700153
+      TheForestSpirit_Full-Spritesheet_25: -5114327469589874221
+      TheForestSpirit_Full-Spritesheet_26: -2319616326850780627
+      TheForestSpirit_Full-Spritesheet_27: -1066266892258043274
+      TheForestSpirit_Full-Spritesheet_28: -939588427463582619
+      TheForestSpirit_Full-Spritesheet_29: -8101883045312754525
+      TheForestSpirit_Full-Spritesheet_3: -6148645504676398076
+      TheForestSpirit_Full-Spritesheet_30: -4057842021231909465
+      TheForestSpirit_Full-Spritesheet_31: 3901254862650400065
+      TheForestSpirit_Full-Spritesheet_32: 6903437354554570765
+      TheForestSpirit_Full-Spritesheet_33: -4988893027302886155
+      TheForestSpirit_Full-Spritesheet_34: -7529931866155448969
+      TheForestSpirit_Full-Spritesheet_35: 7560393608621411170
+      TheForestSpirit_Full-Spritesheet_36: 8363243919472685368
+      TheForestSpirit_Full-Spritesheet_37: -8638266618877798506
+      TheForestSpirit_Full-Spritesheet_38: 6683811040734422017
+      TheForestSpirit_Full-Spritesheet_39: 3326206551310474015
+      TheForestSpirit_Full-Spritesheet_4: 4150994132137670134
+      TheForestSpirit_Full-Spritesheet_40: 3410498956278466485
+      TheForestSpirit_Full-Spritesheet_41: 6205301784262904734
+      TheForestSpirit_Full-Spritesheet_42: -1035412178598959990
+      TheForestSpirit_Full-Spritesheet_43: -8450598996881063370
+      TheForestSpirit_Full-Spritesheet_44: 63687471372958585
+      TheForestSpirit_Full-Spritesheet_45: -1334763003804397686
+      TheForestSpirit_Full-Spritesheet_46: -6597207064583463750
+      TheForestSpirit_Full-Spritesheet_47: -7286930287022643719
+      TheForestSpirit_Full-Spritesheet_48: -4013519389923989017
+      TheForestSpirit_Full-Spritesheet_49: 8271694512841843924
+      TheForestSpirit_Full-Spritesheet_5: -7635863798436513093
+      TheForestSpirit_Full-Spritesheet_50: 9168354774034037771
+      TheForestSpirit_Full-Spritesheet_51: 3780203587194866400
+      TheForestSpirit_Full-Spritesheet_52: -4713778032734169009
+      TheForestSpirit_Full-Spritesheet_53: 3874857122888528710
+      TheForestSpirit_Full-Spritesheet_54: -8820424055090979477
+      TheForestSpirit_Full-Spritesheet_55: 3419908331418015893
+      TheForestSpirit_Full-Spritesheet_56: -6697699100522403165
+      TheForestSpirit_Full-Spritesheet_57: 3448201536612314971
+      TheForestSpirit_Full-Spritesheet_58: 3879698313213271096
+      TheForestSpirit_Full-Spritesheet_59: 5188459665934089230
+      TheForestSpirit_Full-Spritesheet_6: -6862661017362323013
+      TheForestSpirit_Full-Spritesheet_60: 1647276687064085578
+      TheForestSpirit_Full-Spritesheet_61: -4596880727894708898
+      TheForestSpirit_Full-Spritesheet_62: -8092385810722604758
+      TheForestSpirit_Full-Spritesheet_63: -5451541180279149758
+      TheForestSpirit_Full-Spritesheet_64: 6012474153374630872
+      TheForestSpirit_Full-Spritesheet_65: 4903019007264265332
+      TheForestSpirit_Full-Spritesheet_66: 324427508669397791
+      TheForestSpirit_Full-Spritesheet_67: 3548647787127114631
+      TheForestSpirit_Full-Spritesheet_68: 6644474009266643619
+      TheForestSpirit_Full-Spritesheet_69: 9120053725413695079
+      TheForestSpirit_Full-Spritesheet_7: -4531782227572829472
+      TheForestSpirit_Full-Spritesheet_70: -2119986550390306358
+      TheForestSpirit_Full-Spritesheet_71: -6550814920287085129
+      TheForestSpirit_Full-Spritesheet_72: 5564963748689078219
+      TheForestSpirit_Full-Spritesheet_73: 6890614056057264521
+      TheForestSpirit_Full-Spritesheet_74: 7126718720048643255
+      TheForestSpirit_Full-Spritesheet_75: -4843438644183049787
+      TheForestSpirit_Full-Spritesheet_76: 8383381234097097472
+      TheForestSpirit_Full-Spritesheet_77: 6586100360977310222
+      TheForestSpirit_Full-Spritesheet_78: -9054013397865603240
+      TheForestSpirit_Full-Spritesheet_79: -7933066200460253658
+      TheForestSpirit_Full-Spritesheet_8: -2229325496369378008
+      TheForestSpirit_Full-Spritesheet_80: -370245598968752431
+      TheForestSpirit_Full-Spritesheet_81: 7735147061177371936
+      TheForestSpirit_Full-Spritesheet_82: 4560701447554697026
+      TheForestSpirit_Full-Spritesheet_83: -3403666871014694102
+      TheForestSpirit_Full-Spritesheet_84: -566319206603350017
+      TheForestSpirit_Full-Spritesheet_85: 1182025787159094710
+      TheForestSpirit_Full-Spritesheet_86: -8927854672506292528
+      TheForestSpirit_Full-Spritesheet_87: -5001643737563544057
+      TheForestSpirit_Full-Spritesheet_88: -4675211584157309969
+      TheForestSpirit_Full-Spritesheet_89: -902400294808710321
+      TheForestSpirit_Full-Spritesheet_9: 8996827052103817979
+      TheForestSpirit_Full-Spritesheet_90: -4488489023552925221
+      TheForestSpirit_Full-Spritesheet_91: 9007633921429156531
+      TheForestSpirit_Full-Spritesheet_92: 1899834235040501545
+      TheForestSpirit_Full-Spritesheet_93: 2918432150682146901
+      TheForestSpirit_Full-Spritesheet_94: -5347169828918189761
+      TheForestSpirit_Full-Spritesheet_95: 6960241327883938329
+      TheForestSpirit_Full-Spritesheet_96: 3157957267898226973
+      TheForestSpirit_Full-Spritesheet_97: -5807909138270499302
+      TheForestSpirit_Full-Spritesheet_98: -7796245466183897370
+      TheForestSpirit_Full-Spritesheet_99: -3470042534419366367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
