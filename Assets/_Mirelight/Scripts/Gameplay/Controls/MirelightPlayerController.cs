@@ -31,6 +31,8 @@ public class MirelightPlayerController : MonoBehaviour
 
     private Vector2 moveInput;
     // private float chargedAttackTimer = 0f;
+    private bool wasGrounded;
+
 
     private void Awake()
     {
@@ -62,8 +64,6 @@ public class MirelightPlayerController : MonoBehaviour
             animator.SetTrigger("ChargedAttack");
             StartCoroutine(AttackLock(1.0f)); // Adjust duration if needed
         }
-
-        
         
         // Jump
         if (Input.GetKeyDown(jumpKey) && IsGrounded())
@@ -71,9 +71,20 @@ public class MirelightPlayerController : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             animator.SetTrigger("Jump");
         }
+        
+        bool grounded = IsGrounded();
+        animator.SetBool("IsGrounded", grounded);
+
+        // גילוי רגע הנחיתה
+        if (!wasGrounded && grounded)
+        {
+            animator.SetTrigger("Land");
+        }
+
+        wasGrounded = grounded;
 
         // Optional: update grounded state in animator
-        animator.SetBool("IsGrounded", IsGrounded());
+        // animator.SetBool("IsGrounded", IsGrounded());
     }
 
     private void FixedUpdate()
