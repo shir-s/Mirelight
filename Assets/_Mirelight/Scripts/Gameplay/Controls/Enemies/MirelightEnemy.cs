@@ -42,6 +42,14 @@ namespace BossLevel.Gameplay.Controls
             {
                 moveDirection = new Vector2(-moveDirection.x, -moveDirection.y);
             }
+            else if (collision.collider.CompareTag("Player"))
+            {
+                MirelightPlayerController player = collision.collider.GetComponent<MirelightPlayerController>();
+                if (player != null)
+                {
+                    player.TakeDamage();
+                }
+            }
         }
 
         private void ChooseNewDirection()
