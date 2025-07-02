@@ -9,6 +9,9 @@ namespace BossLevel.Gameplay.Controls
         private Vector2 moveDirection;
         private float changeDirectionTime = 2f;
         private float timer;
+        private bool spawnedFrogs = false;
+
+        [SerializeField] private GameObject frogPrefab;
 
         private void Start()
         {
@@ -44,6 +47,34 @@ namespace BossLevel.Gameplay.Controls
             float x = Random.Range(-1f, 1f);
             float y = Random.Range(-1f, 1f);
             moveDirection = new Vector2(x, y).normalized;
+        }
+
+        public void SpawnFrogs()
+        {
+            if (!spawnedFrogs)
+            {
+                spawnedFrogs = true;
+                StartCoroutine(SpawnFrogsRoutine());
+            }
+        }
+
+        private System.Collections.IEnumerator SpawnFrogsRoutine()
+        {
+            // גל ראשון
+            for (int i = 0; i < 5; i++)
+            {
+                Instantiate(frogPrefab, transform.position, Quaternion.identity);
+                yield return new WaitForSeconds(0.8f);
+            }
+
+            yield return new WaitForSeconds(5f);
+
+            // גל שני
+            for (int i = 0; i < 5; i++)
+            {
+                Instantiate(frogPrefab, transform.position, Quaternion.identity);
+                yield return new WaitForSeconds(0.8f);
+            }
         }
     }
 }

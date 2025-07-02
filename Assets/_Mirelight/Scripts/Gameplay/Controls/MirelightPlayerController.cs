@@ -156,6 +156,7 @@ public class MirelightPlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         isHurt = false;
+        animator.SetTrigger("Land");
     }
 
     public void Die()

@@ -5,13 +5,14 @@ namespace BossLevel.Gameplay.Controls
 {
     public class MirelightEnemyHealth : BossLevelBaseMono
     {
-        public int maxHealth = 3;
+        public int maxHealth = 10;
         private int currentHealth;
 
         private SpriteRenderer spriteRenderer;
-        // public Color hurtColor = Color.red;
         private static readonly Color HurtFlashColor = new Color(0.34f, 0f, 0.04f);
         private Color originalColor;
+
+        private bool triggeredSpawn = false;
 
         private void Awake()
         {
@@ -23,8 +24,15 @@ namespace BossLevel.Gameplay.Controls
         public void TakeDamage(int damage)
         {
             currentHealth -= damage;
-            StartCoroutine(FlashHurtColor(1f)); 
-            
+            StartCoroutine(FlashHurtColor(1f));
+
+            // אם ירד מתחת לסף, נגרום לו לזמן את הצפרדעים
+            if (currentHealth <= 6 && !triggeredSpawn)
+            {
+                triggeredSpawn = true;
+                GetComponent<MirelightEnemy>()?.SpawnFrogs();
+            }
+
             if (currentHealth <= 0)
             {
                 Die();
