@@ -5,30 +5,39 @@ namespace BossLevel.Gameplay.Controls
 {
     public class MirelightFrog : BossLevelBaseMono
     {
-        // public float jumpForce = 5f;
         [SerializeField] private float jumpForce = 5f;
+        [SerializeField] private float sideForce = 1.5f;
+
         private Rigidbody2D rb;
-        private Transform player;
+        private SpriteRenderer spriteRenderer;
         private bool grounded;
+        private int initialDirection;
 
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
-            player = GameObject.FindWithTag("Player").transform;
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
+        private void Start()
+        {
+            initialDirection = Random.value < 0.5f ? -1 : 1;
+
+            spriteRenderer.flipX = initialDirection < 0;
         }
 
         private void Update()
         {
-            if (grounded && player != null)
+            if (grounded)
             {
-                Vector2 dir = (player.position - transform.position).normalized;
-                rb.AddForce(new Vector2(dir.x, 1) * jumpForce, ForceMode2D.Impulse);
+                float xForce = initialDirection * sideForce;
+                float yForce = jumpForce;
+
+                rb.AddForce(new Vector2(xForce, yForce), ForceMode2D.Impulse);
                 grounded = false;
             }
-            
         }
-        
-        
+
         private void OnCollisionEnter2D(Collision2D collision)
         {
             if (collision.collider.CompareTag("Ground"))
@@ -46,14 +55,9 @@ namespace BossLevel.Gameplay.Controls
             }
         }
 
-
         public void TakeDamage(int damage)
         {
-            Destroy(gameObject); // תמיד מת במכה אחת
+            Destroy(gameObject);
         }
-    }
-
-    internal class MirelightPlayerHealth
-    {
     }
 }
