@@ -1,3 +1,4 @@
+using BossLevel.Gameplay.Controls;
 using UnityEngine;
 
 public class MirelightPlayerController : MonoBehaviour
@@ -33,7 +34,14 @@ public class MirelightPlayerController : MonoBehaviour
     // private float chargedAttackTimer = 0f;
     private bool wasGrounded;
 
+    [SerializeField] private GameObject _projectilePrefab;
+    [SerializeField] private Transform _firePoint;
+    // [SerializeField] private float _projectileSpeed = 10f;
+    
+    [SerializeField] private Transform enemy;
 
+    
+    
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -45,47 +53,59 @@ public class MirelightPlayerController : MonoBehaviour
     {
         if (isSleeping || isDead || isAttacking) return;
 
+        HandleMovement();
+        HandleAttack();
+        HandleJump();
+        HandleGroundState();
+    }
+
+    private void HandleMovement()
+    {
         moveInput.x = Input.GetAxisRaw("Horizontal");
         animator.SetFloat("speed", Mathf.Abs(moveInput.x));
 
         if (moveInput.x != 0)
             spriteRenderer.flipX = moveInput.x < 0;
+    }
 
-        // Regular Attack
+    private void HandleAttack()
+    {
         if (Input.GetKeyDown(attackKey))
         {
             animator.SetTrigger("Attack");
+            Shoot();
             StartCoroutine(AttackLock(0.5f));
         }
 
-        // Charged Attack
         if (Input.GetKeyDown(chargedAttackKey))
         {
             animator.SetTrigger("ChargedAttack");
-            StartCoroutine(AttackLock(1.0f)); // Adjust duration if needed
+            StartCoroutine(AttackLock(1.0f));
         }
-        
-        // Jump
+    }
+
+    private void HandleJump()
+    {
         if (Input.GetKeyDown(jumpKey) && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             animator.SetTrigger("Jump");
         }
-        
+    }
+
+    private void HandleGroundState()
+    {
         bool grounded = IsGrounded();
         animator.SetBool("IsGrounded", grounded);
 
-        // גילוי רגע הנחיתה
         if (!wasGrounded && grounded)
         {
             animator.SetTrigger("Land");
         }
 
         wasGrounded = grounded;
-
-        // Optional: update grounded state in animator
-        // animator.SetBool("IsGrounded", IsGrounded());
     }
+
 
     private void FixedUpdate()
     {
@@ -147,4 +167,48 @@ public class MirelightPlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         this.enabled = false;
     }
+    
+    
+    private Transform FindClosestEnemy()
+    {
+        var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        Transform closest = null;
+        float minDist = Mathf.Infinity;
+        Vector3 currentPos = _firePoint.position;
+
+        foreach (var enemyObj in enemies)
+        {
+            float dist = Vector3.Distance(enemyObj.transform.position, currentPos);
+            if (dist < minDist)
+            {
+                closest = enemyObj.transform;
+                minDist = dist;
+            }
+        }
+
+        return closest;
+    }
+
+    
+    private void Shoot()
+    {
+        var projectile = Instantiate(_projectilePrefab, _firePoint.position, Quaternion.identity);
+        var projectileScript = projectile.GetComponent<MirelightProjectile>();
+
+        if (projectileScript != null)
+        {
+            Transform closestEnemy = FindClosestEnemy();
+            Vector2 dirToEnemy;
+
+            if (closestEnemy != null)
+                dirToEnemy = (closestEnemy.position - _firePoint.position).normalized;
+            else
+                dirToEnemy = spriteRenderer.flipX ? Vector2.left : Vector2.right;
+
+            projectileScript.Initialize(dirToEnemy, 10f);
+        }
+    }
+
+
+    
 }

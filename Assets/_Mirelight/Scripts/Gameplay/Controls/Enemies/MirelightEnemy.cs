@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace BossLevel.Gameplay.Controls
 {
-    public class BossLevelEnemy: BossLevelBaseMono 
+    public class MirelightEnemy : BossLevelBaseMono
     {
         public float moveSpeed = 2f;
         private Vector2 moveDirection;
@@ -19,29 +19,24 @@ namespace BossLevel.Gameplay.Controls
         {
             timer += Time.deltaTime;
 
-            // החלפת כיוון רנדומלי לפי זמן
+            // החלפת כיוון רנדומלית אחרי זמן
             if (timer >= changeDirectionTime)
             {
                 ChooseNewDirection();
                 timer = 0f;
             }
 
-            // תנועה
+            // תזוזה
             transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
+        }
 
-            // בדיקת גבולות מסך
-            Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
-
-            // אם פוגע בגבול – הופך כיוון
-            if (viewPos.x <= 0f || viewPos.x >= 1f)
-                moveDirection.x *= -1;
-            if (viewPos.y <= 0f || viewPos.y >= 1f)
-                moveDirection.y *= -1;
-
-            // שמירה על גבולות המסך
-            viewPos.x = Mathf.Clamp01(viewPos.x);
-            viewPos.y = Mathf.Clamp01(viewPos.y);
-            transform.position = Camera.main.ViewportToWorldPoint(viewPos);
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.collider.CompareTag("Ground"))
+            {
+                // נהפוך כיוון בכיוון ה-X וה-Y
+                moveDirection = new Vector2(-moveDirection.x, -moveDirection.y);
+            }
         }
 
         private void ChooseNewDirection()
