@@ -6,7 +6,8 @@ namespace BossLevel.Gameplay.Controls
     public class MirelightEnemyHealth : BossLevelBaseMono
     {
         public int maxHealth = 10;
-        private int currentHealth;
+        [SerializeField] private int currentHealth;
+
 
         private SpriteRenderer spriteRenderer;
         private static readonly Color HurtFlashColor = new Color(0.34f, 0f, 0.04f);

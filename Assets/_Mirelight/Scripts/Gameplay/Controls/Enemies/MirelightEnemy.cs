@@ -5,13 +5,18 @@ namespace BossLevel.Gameplay.Controls
 {
     public class MirelightEnemy : BossLevelBaseMono
     {
-        public float moveSpeed = 2f;
+        [SerializeField] private float moveSpeed = 2f;
+        [SerializeField] private float changeDirectionTime = 2f;
+        [SerializeField] private GameObject frogPrefab;
+
+        [SerializeField] private int frogsPerWave = 5;
+        [SerializeField] private float spawnDelay = 0.8f;
+        [SerializeField] private float timeBetweenWaves = 5f;
+        [SerializeField] private float spawnRadius = 0.5f;
+
         private Vector2 moveDirection;
-        private float changeDirectionTime = 2f;
         private float timer;
         private bool spawnedFrogs = false;
-
-        [SerializeField] private GameObject frogPrefab;
 
         private void Start()
         {
@@ -22,14 +27,12 @@ namespace BossLevel.Gameplay.Controls
         {
             timer += Time.deltaTime;
 
-            // החלפת כיוון רנדומלית אחרי זמן
             if (timer >= changeDirectionTime)
             {
                 ChooseNewDirection();
                 timer = 0f;
             }
 
-            // תזוזה
             transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
         }
 
@@ -37,7 +40,6 @@ namespace BossLevel.Gameplay.Controls
         {
             if (collision.collider.CompareTag("Ground"))
             {
-                // נהפוך כיוון בכיוון ה-X וה-Y
                 moveDirection = new Vector2(-moveDirection.x, -moveDirection.y);
             }
         }
@@ -60,20 +62,18 @@ namespace BossLevel.Gameplay.Controls
 
         private System.Collections.IEnumerator SpawnFrogsRoutine()
         {
-            // גל ראשון
-            for (int i = 0; i < 5; i++)
-            {
-                Instantiate(frogPrefab, transform.position, Quaternion.identity);
-                yield return new WaitForSeconds(0.8f);
-            }
+            yield return SpawnWave();
+            yield return new WaitForSeconds(timeBetweenWaves);
+            yield return SpawnWave();
+        }
 
-            yield return new WaitForSeconds(5f);
-
-            // גל שני
-            for (int i = 0; i < 5; i++)
+        private System.Collections.IEnumerator SpawnWave()
+        {
+            for (int i = 0; i < frogsPerWave; i++)
             {
-                Instantiate(frogPrefab, transform.position, Quaternion.identity);
-                yield return new WaitForSeconds(0.8f);
+                Vector2 offset = Random.insideUnitCircle * spawnRadius;
+                Instantiate(frogPrefab, (Vector2)transform.position + offset, Quaternion.identity);
+                yield return new WaitForSeconds(spawnDelay);
             }
         }
     }

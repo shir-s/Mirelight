@@ -146,18 +146,20 @@ public class MirelightPlayerController : MonoBehaviour
     public void TakeDamage()
     {
         if (isDead) return;
-
+    
         isHurt = true;
         animator.SetTrigger("Hurt");
         StartCoroutine(HurtRecovery());
+        
     }
-
+    
     private System.Collections.IEnumerator HurtRecovery()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(5f);
         isHurt = false;
         animator.SetTrigger("Land");
     }
+    
 
     public void Die()
     {

@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -88,7 +88,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -131,20 +131,20 @@ TextureImporter:
       name: ToxicFrogPurpleWhite_Attack_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 14
-        width: 23
-        height: 18
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c849659fddcf17c60800000000000000
-      internalID: 7814304858765694092
+      spriteID: 935edce851b3f3c48a7fc9cdbe82a279
+      internalID: -1845199405
       vertices: []
       indices: 
       edges: []
@@ -153,20 +153,20 @@ TextureImporter:
       name: ToxicFrogPurpleWhite_Attack_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 14
-        width: 23
-        height: 17
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 37d2122459ed85670800000000000000
-      internalID: 8527810627066998131
+      spriteID: d4de9efddfc5b3e4f90c65c46e64e773
+      internalID: 1220182073
       vertices: []
       indices: 
       edges: []
@@ -175,20 +175,20 @@ TextureImporter:
       name: ToxicFrogPurpleWhite_Attack_2
       rect:
         serializedVersion: 2
-        x: 105
-        y: 14
-        width: 24
-        height: 15
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 59f568d2deda198d0800000000000000
-      internalID: -2841298655711436907
+      spriteID: 6154dcddbfcecdc44bf1e4479e30a780
+      internalID: -1632989192
       vertices: []
       indices: 
       edges: []
@@ -197,20 +197,20 @@ TextureImporter:
       name: ToxicFrogPurpleWhite_Attack_3
       rect:
         serializedVersion: 2
-        x: 154
-        y: 14
-        width: 36
-        height: 19
+        x: 144
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 827c3262e53d4ac80800000000000000
-      internalID: -8312286610898827480
+      spriteID: 5b7179816f638d445a8e2e2937f85e5c
+      internalID: 1056472789
       vertices: []
       indices: 
       edges: []
@@ -219,20 +219,20 @@ TextureImporter:
       name: ToxicFrogPurpleWhite_Attack_4
       rect:
         serializedVersion: 2
-        x: 202
-        y: 14
-        width: 38
-        height: 20
+        x: 192
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 91bece2285715a3f0800000000000000
-      internalID: -890279684025292007
+      spriteID: 9f2d4e6c6aa12324dba688748b582efb
+      internalID: -412127126
       vertices: []
       indices: 
       edges: []
@@ -241,20 +241,20 @@ TextureImporter:
       name: ToxicFrogPurpleWhite_Attack_5
       rect:
         serializedVersion: 2
-        x: 250
-        y: 14
-        width: 38
-        height: 19
+        x: 240
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b9cd543ce350f23a0800000000000000
-      internalID: -6688121154499650405
+      spriteID: 7d511e6db76b1e346a3dabe17bc25e1d
+      internalID: 1243177289
       vertices: []
       indices: 
       edges: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e39aaeab3acb3e44ab29d471427fae81
     internalID: 0
     vertices: []
     indices: 
@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ToxicFrogPurpleWhite_Attack_0: -1845199405
+      ToxicFrogPurpleWhite_Attack_1: 1220182073
+      ToxicFrogPurpleWhite_Attack_2: -1632989192
+      ToxicFrogPurpleWhite_Attack_3: 1056472789
+      ToxicFrogPurpleWhite_Attack_4: -412127126
+      ToxicFrogPurpleWhite_Attack_5: 1243177289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
