@@ -43,9 +43,9 @@ public class MirelightRedFrog : MonoBehaviour
         {
             player.TakeDamage();
         }
-
-        yield return new WaitForSeconds(1.5f);
-        Destroy(gameObject);
+        //
+        // yield return new WaitForSeconds(1.5f);
+        // Destroy(gameObject);
     }
 
 

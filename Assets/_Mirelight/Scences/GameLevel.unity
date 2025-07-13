@@ -10940,67 +10940,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 253218290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1186898046
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1655740841703603407, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_Name
-      value: RedFroggy (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1655740841703603407, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -55.98876
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -47.48786
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.012374146
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.99992347
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 178.582
-      objectReference: {fileID: 0}
-    - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
 --- !u!1 &1209357699
 GameObject:
   m_ObjectHideFlags: 0
@@ -14124,67 +14063,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1602874702
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -56.838898
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -40.44388
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3513684653869961467, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6451622568321714244, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_Name
-      value: BlueToxicFroggy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6451622568321714244, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
 --- !u!1 &1671454480
 GameObject:
   m_ObjectHideFlags: 0
@@ -15893,6 +15771,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   changeDirectionTime: 2
+  jumpAttackInterval: 6
+  jumpAttackForce: 8
   frogPrefabs:
   - {fileID: 213146483501343684, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
   - {fileID: 6451622568321714244, guid: f099f78552438ad4db09438ab8bc329d, type: 3}
@@ -19381,67 +19261,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1370858956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2412633930263339009
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 213146483501343684, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_Name
-      value: GreenFroggy
-      objectReference: {fileID: 0}
-    - target: {fileID: 213146483501343684, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -63.00672
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -45.30366
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 619171353947697835, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0dbef9bd2124fc64eaee3ea096877466, type: 3}
 --- !u!1001 &7897671597059194546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19453,10 +19272,6 @@ PrefabInstance:
     - target: {fileID: 1655740841703603407, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
       propertyPath: m_Name
       value: RedFroggy
-      objectReference: {fileID: 0}
-    - target: {fileID: 1655740841703603407, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6461623055965551686, guid: e6d44831834c3e447a1bfb2b385d1108, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19520,6 +19335,3 @@ SceneRoots:
   - {fileID: 1359750977}
   - {fileID: 7897671597059194546}
   - {fileID: 512997461}
-  - {fileID: 2412633930263339009}
-  - {fileID: 1186898046}
-  - {fileID: 1602874702}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3271361155963215614}
   - component: {fileID: 5806439434226345975}
   - component: {fileID: 5924019829134895411}
-  - component: {fileID: 4740278821542704987}
+  - component: {fileID: -3004808060598677184}
   m_Layer: 7
   m_Name: RedFroggy
   m_TagString: Enemy
@@ -203,7 +203,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
---- !u!114 &4740278821542704987
+--- !u!114 &-3004808060598677184
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

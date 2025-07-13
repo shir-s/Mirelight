@@ -8,8 +8,12 @@ namespace BossLevel.Gameplay.Controls
         [SerializeField] private float moveSpeed = 2f;
         [SerializeField] private float changeDirectionTime = 2f;
 
+        [Header("Jump Attack Settings")]
+        [SerializeField] private float jumpAttackInterval = 6f; // כל כמה זמן ינסה לקפוץ על השחקן
+        [SerializeField] private float jumpAttackForce = 8f;     // עוצמת הקפיצה
+
         [Header("Frogs Settings")]
-        [SerializeField] private GameObject[] frogPrefabs; // array for multiple frog types
+        [SerializeField] private GameObject[] frogPrefabs;
         [SerializeField] private int frogsPerWave = 5;
         [SerializeField] private float spawnDelay = 0.8f;
         [SerializeField] private float timeBetweenWaves = 5f;
@@ -17,24 +21,51 @@ namespace BossLevel.Gameplay.Controls
 
         private Vector2 moveDirection;
         private float timer;
+        private float jumpAttackTimer; // NEW
+
         private bool spawnedFrogs = false;
+        private Transform player;      // NEW
+        private Rigidbody2D rb;         // NEW
+
+        private void Awake()
+        {
+            player = GameObject.FindWithTag("Player").transform;
+            rb = GetComponent<Rigidbody2D>();
+        }
 
         private void Start()
         {
             ChooseNewDirection();
+            jumpAttackTimer = jumpAttackInterval; // NEW
         }
 
         private void Update()
         {
             timer += Time.deltaTime;
+            jumpAttackTimer += Time.deltaTime; // NEW
 
-            if (timer >= changeDirectionTime)
+            if (jumpAttackTimer >= jumpAttackInterval && player != null)
+            {
+                JumpAttack();
+                jumpAttackTimer = 0f;
+            }
+            else if (timer >= changeDirectionTime)
             {
                 ChooseNewDirection();
                 timer = 0f;
             }
 
             transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
+        }
+
+        private void JumpAttack()
+        {
+            if (player == null || rb == null) return;
+
+            Vector2 directionToPlayer = (player.position - transform.position).normalized;
+
+            // נגרום לו "לקפוץ" לשחקן
+            rb.AddForce(new Vector2(directionToPlayer.x, 1).normalized * jumpAttackForce, ForceMode2D.Impulse);
         }
 
         private void OnCollisionEnter2D(Collision2D collision)
@@ -78,14 +109,12 @@ namespace BossLevel.Gameplay.Controls
 
         private System.Collections.IEnumerator SpawnWave()
         {
-            // always at least one of each type if we have them
             foreach (var frogPrefab in frogPrefabs)
             {
                 SpawnSingleFrog(frogPrefab);
                 yield return new WaitForSeconds(spawnDelay);
             }
 
-            // fill the rest randomly
             for (int i = frogPrefabs.Length; i < frogsPerWave; i++)
             {
                 var randomFrogPrefab = frogPrefabs[Random.Range(0, frogPrefabs.Length)];

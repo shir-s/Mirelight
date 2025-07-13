@@ -1,3 +1,4 @@
+using _Mirelight.Scripts.Gameplay.Controls.Enemies.Frogs;
 using BossLevel.Core;
 using UnityEngine;
 
@@ -7,7 +8,7 @@ namespace BossLevel.Gameplay.Controls
     {
         [SerializeField] private float jumpForce = 3f;
         [SerializeField] private float sideForce = 2f;
-
+        private SpriteRenderer spriteRenderer;
         private Transform player;
         private Rigidbody2D rb;
         private bool grounded = false;
@@ -16,6 +17,7 @@ namespace BossLevel.Gameplay.Controls
         {
             rb = GetComponent<Rigidbody2D>();
             player = GameObject.FindWithTag("Player").transform;
+            spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         private void Update()
@@ -23,12 +25,13 @@ namespace BossLevel.Gameplay.Controls
             if (grounded && player != null)
             {
                 Vector2 dir = (player.position - transform.position).normalized;
-                
+
                 float xForce = dir.x * sideForce;
                 float yForce = jumpForce;
 
                 rb.AddForce(new Vector2(xForce, yForce), ForceMode2D.Impulse);
                 grounded = false;
+                spriteRenderer.flipX = dir.x < 0;
             }
         }
 
@@ -41,11 +44,11 @@ namespace BossLevel.Gameplay.Controls
             else if (collision.collider.CompareTag("Player"))
             {
                 collision.collider.GetComponent<MirelightPlayerController>()?.TakeDamage();
-                Destroy(gameObject);
+                GetComponent<MirelightFrogHealth>()?.TakeDamage(1);
             }
             else if (collision.collider.CompareTag("Border"))
             {
-                Destroy(gameObject);
+                GetComponent<MirelightFrogHealth>()?.TakeDamage(1);
             }
         }
     }
