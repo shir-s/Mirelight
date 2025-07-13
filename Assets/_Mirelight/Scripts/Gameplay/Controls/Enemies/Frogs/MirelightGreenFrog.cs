@@ -13,11 +13,14 @@ namespace BossLevel.Gameplay.Controls
         private Rigidbody2D rb;
         private bool grounded = false;
 
+        private MirelightFrogHealth frogHealth;
+
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
             player = GameObject.FindWithTag("Player").transform;
             spriteRenderer = GetComponent<SpriteRenderer>();
+            frogHealth = GetComponent<MirelightFrogHealth>();
         }
 
         private void Update()
@@ -31,6 +34,7 @@ namespace BossLevel.Gameplay.Controls
 
                 rb.AddForce(new Vector2(xForce, yForce), ForceMode2D.Impulse);
                 grounded = false;
+
                 spriteRenderer.flipX = dir.x < 0;
             }
         }
@@ -43,12 +47,12 @@ namespace BossLevel.Gameplay.Controls
             }
             else if (collision.collider.CompareTag("Player"))
             {
-                collision.collider.GetComponent<MirelightPlayerController>()?.TakeDamage();
-                GetComponent<MirelightFrogHealth>()?.TakeDamage(1);
+                collision.collider.GetComponent<MirelightPlayerHealth>()?.TakeDamage(1);
+                frogHealth?.TakeDamage(1); // הצפרדע מתה
             }
             else if (collision.collider.CompareTag("Border"))
             {
-                GetComponent<MirelightFrogHealth>()?.TakeDamage(1);
+                frogHealth?.TakeDamage(1);
             }
         }
     }

@@ -1,54 +1,38 @@
 using UnityEngine;
 
-namespace BossLevel.Gameplay.Controls
+public class MirelightPlayerHealth : MonoBehaviour
 {
-    public class MirelightPlayerHealth : MonoBehaviour
+    [SerializeField] private int maxHealth = 5;
+    // private int currentHealth;
+    [SerializeField] private int currentHealth; 
+    
+    
+    private MirelightPlayerController playerController;
+    private bool isDead = false;
+
+    private void Awake()
     {
-        [SerializeField] private int maxHealth = 5;
-        private int currentHealth;
+        currentHealth = maxHealth;
+        playerController = GetComponent<MirelightPlayerController>();
+    }
 
-        private MirelightPlayerController playerController;
+    public void TakeDamage(int damage)
+    {
+        if (isDead) return;
 
-        private void Awake()
+        currentHealth -= damage;
+        playerController.PlayHurtAnimation();
+
+        if (currentHealth <= 0)
         {
-            currentHealth = maxHealth;
-            playerController = GetComponent<MirelightPlayerController>();
-        }
-
-        public void TakeDamage(int damage)
-        {
-            currentHealth -= damage;
-            Debug.Log("Player took damage. Current health: " + currentHealth);
-
-            if (playerController != null)
-            {
-                playerController.TakeDamage();
-            }
-
-            if (currentHealth <= 0)
-            {
-                Die();
-            }
-        }
-
-        private void Die()
-        {
-            Debug.Log("Player died!");
-            playerController?.Die();
-        }
-
-        public void Heal(int amount)
-        {
-            currentHealth += amount;
-            if (currentHealth > maxHealth)
-                currentHealth = maxHealth;
-
-            Debug.Log("Player healed. Current health: " + currentHealth);
-        }
-
-        public int GetHealth()
-        {
-            return currentHealth;
+            Die();
         }
     }
+
+    private void Die()
+    {
+        isDead = true;
+        playerController.PlayDeathAnimation();
+    }
+
 }

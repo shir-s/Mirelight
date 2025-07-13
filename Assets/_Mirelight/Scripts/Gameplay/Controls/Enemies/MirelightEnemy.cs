@@ -76,11 +76,12 @@ namespace BossLevel.Gameplay.Controls
             }
             else if (collision.collider.CompareTag("Player"))
             {
-                MirelightPlayerController player = collision.collider.GetComponent<MirelightPlayerController>();
-                if (player != null)
-                {
-                    player.TakeDamage();
-                }
+                // MirelightPlayerController player = collision.collider.GetComponent<MirelightPlayerController>();
+                // if (player != null)
+                // {
+                //     player.TakeDamage();
+                // }
+                collision.collider.GetComponent<MirelightPlayerHealth>()?.TakeDamage(1);
             }
         }
 

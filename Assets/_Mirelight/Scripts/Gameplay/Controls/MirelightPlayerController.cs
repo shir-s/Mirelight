@@ -9,8 +9,6 @@ public class MirelightPlayerController : MonoBehaviour
     [Header("Attack Settings")]
     public KeyCode attackKey = KeyCode.Z;
     public KeyCode chargedAttackKey = KeyCode.X;
-    // public float chargedAttackHoldTime = 1.2f;
-    // public float chargedAttackHoldTime = 1.2f;
 
     [Header("Jump Settings")]
     public float jumpForce = 8f;
@@ -26,22 +24,15 @@ public class MirelightPlayerController : MonoBehaviour
 
     [Header("States")]
     public bool isSleeping = false;
-    public bool isHurt = false;
-    public bool isDead = false;
     private bool isAttacking = false;
 
     private Vector2 moveInput;
-    // private float chargedAttackTimer = 0f;
     private bool wasGrounded;
 
     [SerializeField] private GameObject _projectilePrefab;
     [SerializeField] private Transform _firePoint;
-    // [SerializeField] private float _projectileSpeed = 10f;
-    
-    [SerializeField] private Transform enemy;
     private float initialFirePointX;
-    
-    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -52,17 +43,16 @@ public class MirelightPlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (isSleeping || isDead || isAttacking) return;
+        if (isSleeping || isAttacking) return;
 
         HandleMovement();
         HandleAttack();
         HandleJump();
         HandleGroundState();
-        
+
         _firePoint.localPosition = new Vector3(
             spriteRenderer.flipX ? -Mathf.Abs(initialFirePointX) : Mathf.Abs(initialFirePointX),
             _firePoint.localPosition.y);
-
     }
 
     private void HandleMovement()
@@ -112,10 +102,9 @@ public class MirelightPlayerController : MonoBehaviour
         wasGrounded = grounded;
     }
 
-
     private void FixedUpdate()
     {
-        if (isSleeping || isDead || isAttacking)
+        if (isSleeping || isAttacking)
         {
             rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
             return;
@@ -149,35 +138,6 @@ public class MirelightPlayerController : MonoBehaviour
         animator.SetBool("IsSleeping", false);
     }
 
-    public void TakeDamage()
-    {
-        if (isDead) return;
-    
-        isHurt = true;
-        animator.SetTrigger("Hurt");
-        StartCoroutine(HurtRecovery());
-        
-    }
-    
-    private System.Collections.IEnumerator HurtRecovery()
-    {
-        yield return new WaitForSeconds(5f);
-        isHurt = false;
-        animator.SetTrigger("Land");
-    }
-    
-
-    public void Die()
-    {
-        if (isDead) return;
-
-        isDead = true;
-        animator.SetTrigger("Die");
-        rb.linearVelocity = Vector2.zero;
-        this.enabled = false;
-    }
-    
-    
     private Transform FindClosestEnemy()
     {
         var enemies = GameObject.FindGameObjectsWithTag("Enemy");
@@ -198,7 +158,6 @@ public class MirelightPlayerController : MonoBehaviour
         return closest;
     }
 
-    
     private void Shoot()
     {
         var projectile = Instantiate(_projectilePrefab, _firePoint.position, Quaternion.identity);
@@ -207,17 +166,23 @@ public class MirelightPlayerController : MonoBehaviour
         if (projectileScript != null)
         {
             Transform closestEnemy = FindClosestEnemy();
-            Vector2 dirToEnemy;
-
-            if (closestEnemy != null)
-                dirToEnemy = (closestEnemy.position - _firePoint.position).normalized;
-            else
-                dirToEnemy = spriteRenderer.flipX ? Vector2.left : Vector2.right;
+            Vector2 dirToEnemy = closestEnemy != null
+                ? (closestEnemy.position - _firePoint.position).normalized
+                : (spriteRenderer.flipX ? Vector2.left : Vector2.right);
 
             projectileScript.Initialize(dirToEnemy, 10f);
         }
     }
 
+    public void PlayHurtAnimation()
+    {
+        animator.SetTrigger("Hurt");
+    }
 
-    
+    public void PlayDeathAnimation()
+    {
+        animator.SetTrigger("Die");
+        rb.linearVelocity = Vector2.zero;
+        this.enabled = false;
+    }
 }

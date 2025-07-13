@@ -46,7 +46,7 @@ namespace BossLevel.Gameplay.Controls
             }
             else if (collision.collider.CompareTag("Player"))
             {
-                collision.collider.GetComponent<MirelightPlayerController>()?.TakeDamage();
+                collision.collider.GetComponent<MirelightPlayerHealth>()?.TakeDamage(1);
                 Destroy(gameObject);
             }
             else if (collision.collider.CompareTag("Border"))

@@ -1,4 +1,3 @@
-
 using System.Collections;
 using UnityEngine;
 
@@ -22,32 +21,24 @@ public class MirelightRedFrog : MonoBehaviour
             if (player != null)
             {
                 triggered = true;
-                StartCoroutine(ExplodeSequence(player.GetComponent<MirelightPlayerController>()));
+                StartCoroutine(ExplodeSequence(player.GetComponent<MirelightPlayerHealth>()));
             }
         }
-        // if (Input.GetKeyDown(KeyCode.E))
-        // {
-        //     animator.SetTrigger("Explode");
-        // }
     }
-    
 
-    private IEnumerator ExplodeSequence(MirelightPlayerController player)
+    private IEnumerator ExplodeSequence(MirelightPlayerHealth playerHealth)
     {
         animator.SetTrigger("Attack");
-        yield return new WaitForSeconds(0.5f); 
+        yield return new WaitForSeconds(0.5f);
 
         animator.SetTrigger("Explode");
-        yield return new WaitForSeconds(0.1f); 
-        if (player != null)
-        {
-            player.TakeDamage();
-        }
-        //
-        // yield return new WaitForSeconds(1.5f);
-        // Destroy(gameObject);
-    }
+        yield return new WaitForSeconds(0.1f);
 
+        if (playerHealth != null)
+        {
+            playerHealth.TakeDamage(1);
+        }
+    }
 
     private void OnDrawGizmosSelected()
     {
