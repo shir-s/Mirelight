@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2471564975933754547}
   - component: {fileID: 3999867998728415310}
   - component: {fileID: 7546458854482399336}
-  m_Layer: 0
+  - component: {fileID: -1938882034119549180}
+  m_Layer: 7
   m_Name: ToxicFroggy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,3 +201,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 26
   sideForce: 6
+--- !u!114 &-1938882034119549180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6451622568321714244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e382759621e94cd46887542afd7bb47d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1

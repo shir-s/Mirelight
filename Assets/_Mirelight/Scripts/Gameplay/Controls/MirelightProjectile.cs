@@ -1,3 +1,4 @@
+using _Mirelight.Scripts.Gameplay.Controls.Enemies.Frogs;
 using BossLevel.Core;
 using UnityEngine;
 
@@ -36,15 +37,23 @@ namespace BossLevel.Gameplay.Controls
             // }
         }
 
+        // private void OnTriggerEnter2D(Collider2D other)
+        // {
+        //     var enemyHealth = other.GetComponent<MirelightEnemyHealth>();
+        //     if (enemyHealth != null)
+        //     {
+        //         enemyHealth.TakeDamage(1);
+        //         Destroy(gameObject);
+        //     }
+        // }
+        
         private void OnTriggerEnter2D(Collider2D other)
         {
-            var enemyHealth = other.GetComponent<MirelightEnemyHealth>();
-            if (enemyHealth != null)
-            {
-                enemyHealth.TakeDamage(1);
-                Destroy(gameObject);
-            }
+            other.GetComponent<MirelightFrogHealth>()?.TakeDamage(1);
+            other.GetComponent<MirelightEnemyHealth>()?.TakeDamage(1);
+            Destroy(gameObject);
         }
+
 
     }
 }

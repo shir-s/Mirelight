@@ -39,7 +39,7 @@ public class MirelightPlayerController : MonoBehaviour
     // [SerializeField] private float _projectileSpeed = 10f;
     
     [SerializeField] private Transform enemy;
-
+    private float initialFirePointX;
     
     
     private void Awake()
@@ -47,6 +47,7 @@ public class MirelightPlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        initialFirePointX = _firePoint.localPosition.x;
     }
 
     private void Update()
@@ -57,6 +58,11 @@ public class MirelightPlayerController : MonoBehaviour
         HandleAttack();
         HandleJump();
         HandleGroundState();
+        
+        _firePoint.localPosition = new Vector3(
+            spriteRenderer.flipX ? -Mathf.Abs(initialFirePointX) : Mathf.Abs(initialFirePointX),
+            _firePoint.localPosition.y);
+
     }
 
     private void HandleMovement()

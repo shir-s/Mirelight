@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -91,7 +91,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -134,20 +134,20 @@ TextureImporter:
       name: ToxicFrogGreenBlue_Hop_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 14
-        width: 23
-        height: 18
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fca48fd4b78b8fb20800000000000000
-      internalID: 3168485177583749839
+      spriteID: f7a92720d7ae3cc4492db3653041966c
+      internalID: -339363527
       vertices: []
       indices: 
       edges: []
@@ -156,20 +156,20 @@ TextureImporter:
       name: ToxicFrogGreenBlue_Hop_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 14
-        width: 23
-        height: 17
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5fa9e7c7e7c390e90800000000000000
-      internalID: -7059044426974323979
+      spriteID: 4b234686994ac714f83976e0f9d27437
+      internalID: -347311103
       vertices: []
       indices: 
       edges: []
@@ -178,20 +178,20 @@ TextureImporter:
       name: ToxicFrogGreenBlue_Hop_2
       rect:
         serializedVersion: 2
-        x: 105
-        y: 14
-        width: 24
-        height: 15
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56e831a946a0c1930800000000000000
-      internalID: 4115175586707770981
+      spriteID: 79d484194c97ef94eb98e1536c8ddd46
+      internalID: -1458111169
       vertices: []
       indices: 
       edges: []
@@ -200,20 +200,20 @@ TextureImporter:
       name: ToxicFrogGreenBlue_Hop_3
       rect:
         serializedVersion: 2
-        x: 155
-        y: 15
-        width: 23
-        height: 23
+        x: 144
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ae42d55792a57fd0800000000000000
-      internalID: -2344789260112867672
+      spriteID: 0fc0e6462fcd73c409b515fd426949b7
+      internalID: 789987302
       vertices: []
       indices: 
       edges: []
@@ -222,20 +222,20 @@ TextureImporter:
       name: ToxicFrogGreenBlue_Hop_4
       rect:
         serializedVersion: 2
-        x: 201
-        y: 18
-        width: 24
-        height: 18
+        x: 192
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 45037f63b31820ee0800000000000000
-      internalID: -1296331651404058540
+      spriteID: f92750ce57b3686478ae1826048647c1
+      internalID: 1830034645
       vertices: []
       indices: 
       edges: []
@@ -244,20 +244,20 @@ TextureImporter:
       name: ToxicFrogGreenBlue_Hop_5
       rect:
         serializedVersion: 2
-        x: 248
-        y: 16
-        width: 25
-        height: 19
+        x: 240
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b3e2e2d5312a63fd0800000000000000
-      internalID: -2362522750457860549
+      spriteID: 79ca89c16134eba4c81abb5e86950223
+      internalID: 1217609721
       vertices: []
       indices: 
       edges: []
@@ -266,20 +266,20 @@ TextureImporter:
       name: ToxicFrogGreenBlue_Hop_6
       rect:
         serializedVersion: 2
-        x: 298
-        y: 14
-        width: 23
-        height: 19
+        x: 288
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 653fe49a2a78db920800000000000000
-      internalID: 3007709258848334678
+      spriteID: 47341736389e5e0439771d0f76b919cd
+      internalID: -929116049
       vertices: []
       indices: 
       edges: []
@@ -288,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3f1e6d4876c4f9c45ac38620e3be0e3f
     internalID: 0
     vertices: []
     indices: 
@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ToxicFrogGreenBlue_Hop_0: -339363527
+      ToxicFrogGreenBlue_Hop_1: -347311103
+      ToxicFrogGreenBlue_Hop_2: -1458111169
+      ToxicFrogGreenBlue_Hop_3: 789987302
+      ToxicFrogGreenBlue_Hop_4: 1830034645
+      ToxicFrogGreenBlue_Hop_5: 1217609721
+      ToxicFrogGreenBlue_Hop_6: -929116049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

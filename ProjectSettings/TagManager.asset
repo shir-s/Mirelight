@@ -5,9 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
-  - GruzMother
   - Enemy
   - Border
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -16,8 +16,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - Frog
+  - Projectile
   - 
   - 
   - 

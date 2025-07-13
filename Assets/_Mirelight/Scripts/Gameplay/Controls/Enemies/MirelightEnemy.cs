@@ -7,8 +7,9 @@ namespace BossLevel.Gameplay.Controls
     {
         [SerializeField] private float moveSpeed = 2f;
         [SerializeField] private float changeDirectionTime = 2f;
-        [SerializeField] private GameObject frogPrefab;
 
+        [Header("Frogs Settings")]
+        [SerializeField] private GameObject[] frogPrefabs; // array for multiple frog types
         [SerializeField] private int frogsPerWave = 5;
         [SerializeField] private float spawnDelay = 0.8f;
         [SerializeField] private float timeBetweenWaves = 5f;
@@ -77,12 +78,26 @@ namespace BossLevel.Gameplay.Controls
 
         private System.Collections.IEnumerator SpawnWave()
         {
-            for (int i = 0; i < frogsPerWave; i++)
+            // always at least one of each type if we have them
+            foreach (var frogPrefab in frogPrefabs)
             {
-                Vector2 offset = Random.insideUnitCircle * spawnRadius;
-                Instantiate(frogPrefab, (Vector2)transform.position + offset, Quaternion.identity);
+                SpawnSingleFrog(frogPrefab);
                 yield return new WaitForSeconds(spawnDelay);
             }
+
+            // fill the rest randomly
+            for (int i = frogPrefabs.Length; i < frogsPerWave; i++)
+            {
+                var randomFrogPrefab = frogPrefabs[Random.Range(0, frogPrefabs.Length)];
+                SpawnSingleFrog(randomFrogPrefab);
+                yield return new WaitForSeconds(spawnDelay);
+            }
+        }
+
+        private void SpawnSingleFrog(GameObject frogPrefab)
+        {
+            Vector2 offset = Random.insideUnitCircle * spawnRadius;
+            Instantiate(frogPrefab, (Vector2)transform.position + offset, Quaternion.identity);
         }
     }
 }
