@@ -11324,7 +11324,7 @@ MonoBehaviour:
   musicSource: {fileID: 600190181}
   sfxSource: {fileID: 600190180}
   backgroundMusic: {fileID: 8300000, guid: b13ab3527e6025b4d875acd8f007e608, type: 3}
-  typewriterSound: {fileID: 8300000, guid: 0ec8ba4627ee9a84783e2f959eab5bfd, type: 3}
+  typewriterSound: {fileID: 8300000, guid: b45b4fd5dfcad4e4cbb844ff06d342cf, type: 3}
   collectItemSound: {fileID: 0}
   playerHitSound: {fileID: 0}
 --- !u!4 &600190183
@@ -20441,8 +20441,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 27
+  m_fontSizeBase: 27
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21152,7 +21152,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1599157515}
   fullText: Hi!\n A thousand eyes are watching you!\n Beware the charming creatures
     you meet\n their beauty conceals darker truths.
-  typingSpeed: 0.15
+  typingSpeed: 0.18
   delayBeforeStart: 2
 --- !u!1 &1781363730
 GameObject:
