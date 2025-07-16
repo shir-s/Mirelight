@@ -5,7 +5,7 @@ public class MirelightPlayerHealth : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 5;
     // private int currentHealth;
-    [SerializeField] private int currentHealth; 
+    public int currentHealth; 
     
     
     private MirelightPlayerController playerController;
