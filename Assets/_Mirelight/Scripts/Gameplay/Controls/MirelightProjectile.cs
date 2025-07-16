@@ -34,7 +34,7 @@ namespace BossLevel.Gameplay.Controls
         private void OnTriggerEnter2D(Collider2D other)
         {
             other.GetComponent<MirelightFrogHealth>()?.TakeDamage(1);
-            other.GetComponent<MirelightEnemyHealth>()?.TakeDamage(1);
+            other.GetComponent<MirelightBossHealth>()?.TakeDamage(1);
         }
 
 
