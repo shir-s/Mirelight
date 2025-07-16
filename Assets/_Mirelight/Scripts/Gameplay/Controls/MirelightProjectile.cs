@@ -33,8 +33,18 @@ namespace BossLevel.Gameplay.Controls
         
         private void OnTriggerEnter2D(Collider2D other)
         {
-            other.GetComponent<MirelightFrogHealth>()?.TakeDamage(1);
-            other.GetComponent<MirelightBossHealth>()?.TakeDamage(1);
+            var frog = other.GetComponent<MirelightFrogHealth>();
+            if (frog != null)
+            {
+                frog.TakeDamage(1);
+                return;
+            }
+
+            var boss = other.GetComponent<MirelightBossHealth>();
+            if (boss != null && !boss.isDead)
+            {
+                boss.TakeDamage(1);
+            }
         }
 
 

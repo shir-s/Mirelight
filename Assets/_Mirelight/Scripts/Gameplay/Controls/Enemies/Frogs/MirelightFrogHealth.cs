@@ -1,8 +1,9 @@
+using BossLevel.Gameplay.Controls;
 using UnityEngine;
 
 namespace _Mirelight.Scripts.Gameplay.Controls.Enemies.Frogs
 {
-    public class MirelightFrogHealth : MonoBehaviour
+    public class MirelightFrogHealth : MonoBehaviour, IMirelightDamageable
     {
         [SerializeField] private int maxHealth = 1;
         private int currentHealth;
