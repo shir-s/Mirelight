@@ -42,6 +42,7 @@ public class MirelightGameManager : MonoBehaviour
 
     public void RestartGame()
     {
+        MirelightSoundManager.Instance.PlayBackgroundMusic();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 

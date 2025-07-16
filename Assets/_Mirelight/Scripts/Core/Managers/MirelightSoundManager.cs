@@ -31,15 +31,28 @@ public class MirelightSoundManager : MonoBehaviour
         PlayBackgroundMusic();
     }
 
+    // public void PlayBackgroundMusic()
+    // {
+    //     if (backgroundMusic != null)
+    //     {
+    //         musicSource.clip = backgroundMusic;
+    //         musicSource.loop = true;
+    //         musicSource.Play();
+    //     }
+    // }
+    
     public void PlayBackgroundMusic()
     {
         if (backgroundMusic != null)
         {
+            musicSource.Stop(); 
             musicSource.clip = backgroundMusic;
+            // musicSource.volume = musicVolume;
             musicSource.loop = true;
             musicSource.Play();
         }
     }
+
 
     public void PlayTypewriter()
     {
