@@ -78,10 +78,24 @@ Boss with multi-phase logic and wave spawning
 
 Particle effects and dynamic lighting
 
-------------------------------------
+------------------------------------------
 
 Inspirations
 ------------------------------------
 The world building and magical glow were inspired by Hollow Knight
 
 Some layout and environment ideas were influenced by MapleStory
+
+------------------------------------
+Useful Links
+------------------
+Ready to play? Click here! -
+https://shir-s.itch.io/mirelight
+
+Code explanation video-
+
+Gameplay Video-
+
+
+
+
