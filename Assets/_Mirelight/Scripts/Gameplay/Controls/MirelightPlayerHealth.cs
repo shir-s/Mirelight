@@ -1,3 +1,4 @@
+using System.Collections;
 using BossLevel.Gameplay.Controls;
 using UnityEngine;
 
@@ -35,7 +36,13 @@ public class MirelightPlayerHealth : MonoBehaviour
         isDead = true;
         playerController.PlayDeathAnimation();
         
-        Object.FindFirstObjectByType<MirelightGameManager>().PlayerLost();
 
+    }
+    
+    //function that wait for 2 second and the call playerlost
+    private IEnumerator WaitAndCallPlayerLost()
+    {
+        yield return new WaitForSeconds(2f);
+        Object.FindFirstObjectByType<MirelightGameManager>().PlayerLost();
     }
 }
