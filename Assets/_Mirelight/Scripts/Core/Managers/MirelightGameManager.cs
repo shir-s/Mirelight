@@ -22,7 +22,14 @@ public class MirelightGameManager : MonoBehaviour
 
     private void Update()
     {
-        // בדיקה בטוחה אם הפאנלים עדיין קיימים// לא נאפשר ריסטארט אם אנחנו עדיין במצב פתיחה
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        }
+        
         if (!IsInOpening && ((winPanel != null && winPanel.activeSelf) || (losePanel != null && losePanel.activeSelf))
                          && Input.GetKeyDown(KeyCode.Return))
         {
