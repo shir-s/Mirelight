@@ -9,16 +9,16 @@ public class MirelightTypewriter : MonoBehaviour
     public float typingSpeed = 0.05f;
     public float delayBeforeStart = 5f;
 
-    private void Start()
-    {
-        StartCoroutine(StartWithDelay());
-    }
-
-    private IEnumerator StartWithDelay()
-    {
-        yield return new WaitForSeconds(delayBeforeStart);
-        StartTyping();
-    }
+    // private void Start()
+    // {
+    //     StartCoroutine(StartWithDelay());
+    // }
+    //
+    // private IEnumerator StartWithDelay()
+    // {
+    //     yield return new WaitForSeconds(delayBeforeStart);
+    //     StartTyping();
+    // }
 
     public void StartTyping()
     {

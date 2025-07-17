@@ -13,6 +13,8 @@ public class MirelightSoundManager : MonoBehaviour
     public AudioClip typewriterSound;
     public AudioClip collectItemSound;
     public AudioClip playerHitSound;
+    public AudioClip loseClip;
+    public AudioClip winClip;
 
     private void Awake()
     {
@@ -26,33 +28,16 @@ public class MirelightSoundManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void Start()
-    {
-        PlayBackgroundMusic();
-    }
-
-    // public void PlayBackgroundMusic()
-    // {
-    //     if (backgroundMusic != null)
-    //     {
-    //         musicSource.clip = backgroundMusic;
-    //         musicSource.loop = true;
-    //         musicSource.Play();
-    //     }
-    // }
-    
     public void PlayBackgroundMusic()
     {
-        if (backgroundMusic != null)
+        if (backgroundMusic != null && musicSource != null)
         {
-            musicSource.Stop(); 
+            musicSource.Stop();
             musicSource.clip = backgroundMusic;
-            // musicSource.volume = musicVolume;
             musicSource.loop = true;
             musicSource.Play();
         }
     }
-
 
     public void PlayTypewriter()
     {
@@ -73,5 +58,30 @@ public class MirelightSoundManager : MonoBehaviour
     {
         if (clip != null && sfxSource != null)
             sfxSource.PlayOneShot(clip, volume);
+    }
+
+    public void StopAllSounds()
+    {
+        if (musicSource != null)
+            musicSource.Stop();
+
+        if (sfxSource != null)
+            sfxSource.Stop();
+    }
+
+    public void PlayLoseSound()
+    {
+        if (loseClip != null && sfxSource != null)
+        {
+            sfxSource.PlayOneShot(loseClip);
+        }
+    }
+    
+    public void PlayWinSound()
+    {
+        if (winClip != null && sfxSource != null)
+        {
+            sfxSource.PlayOneShot(winClip);
+        }
     }
 }
