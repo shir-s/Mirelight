@@ -11582,6 +11582,8 @@ MonoBehaviour:
   typewriterSound: {fileID: 8300000, guid: b45b4fd5dfcad4e4cbb844ff06d342cf, type: 3}
   collectItemSound: {fileID: 0}
   playerHitSound: {fileID: 0}
+  loseClip: {fileID: 8300000, guid: 469c95a7594c53a4394960f5c12c5570, type: 3}
+  winClip: {fileID: 8300000, guid: 59b54d82768452649b34fbda70b5a69a, type: 3}
 --- !u!4 &600190183
 Transform:
   m_ObjectHideFlags: 0
@@ -12126,9 +12128,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6d8a6e33f2fca41a740cee9f2cf356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onOpeningComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1815921369}
+        m_TargetAssemblyTypeName: MirelightGameManager, Assembly-CSharp
+        m_MethodName: SetIsInOpeningFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 600190182}
+        m_TargetAssemblyTypeName: MirelightSoundManager, Assembly-CSharp
+        m_MethodName: PlayBackgroundMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1780521561}
+        m_TargetAssemblyTypeName: MirelightTypewriter, Assembly-CSharp
+        m_MethodName: StartTyping
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   openingPanel: {fileID: 643628403}
-  startSound: {fileID: 0}
-  sfxSource: {fileID: 600190181}
 --- !u!1 &653511001
 GameObject:
   m_ObjectHideFlags: 0
@@ -17149,7 +17188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -20505,9 +20544,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -100, y: 25}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &1473209344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23222,6 +23261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   losePanel: {fileID: 292573231}
   winPanel: {fileID: 854840622}
+  IsInOpening: 1
 --- !u!4 &1815921370
 Transform:
   m_ObjectHideFlags: 0
