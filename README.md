@@ -13,7 +13,7 @@ Mirelight is a 2D action platformer set in a dark, rainy world filled with decep
 ------------------------------------
 Controls
 ------------------------------------
-Move: Arrow keys or WASD
+Move: Arrow keys
 
 Jump: Space
 
