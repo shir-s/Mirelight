@@ -53,5 +53,9 @@ TagManager:
   - name: Player
     uniqueID: 2206079239
     locked: 0
+  - name: SoulFairyLayer
+    uniqueID: 3121363913
+    locked: 0
   m_RenderingLayers:
   - Default
+  - SoulFairy
