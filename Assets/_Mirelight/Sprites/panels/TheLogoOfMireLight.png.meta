@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TheLogoOfMireLight_0: 436839158548301448
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

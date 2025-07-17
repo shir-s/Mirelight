@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mirelight_Logo_Transparent_0: -1897091934522510438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

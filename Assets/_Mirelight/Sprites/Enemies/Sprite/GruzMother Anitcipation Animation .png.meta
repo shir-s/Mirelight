@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GruzMother Anitcipation Animation _0: 961275372694235192
+      GruzMother Anitcipation Animation _1: -1278588891565358463
+      GruzMother Anitcipation Animation _2: 4555816134797050370
+      GruzMother Anitcipation Animation _3: 1571630403901891554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -36,15 +36,15 @@ public class MirelightGameManager : MonoBehaviour
             RestartGame();
         }
         
-        // just for testing purposes, remove in production
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            PlayerLost();
-        }
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            PlayerWon();
-        }
+        // // just for testing purposes, remove in production
+        // if (Input.GetKeyDown(KeyCode.L))
+        // {
+        //     PlayerLost();
+        // }
+        // if (Input.GetKeyDown(KeyCode.W))
+        // {
+        //     PlayerWon();
+        // }
     }
 
     public void RestartGame()
