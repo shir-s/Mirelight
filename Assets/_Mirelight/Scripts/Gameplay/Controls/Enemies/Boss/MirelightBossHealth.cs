@@ -115,6 +115,9 @@ public class MirelightBossHealth : MonoBehaviour, IMirelightDamageable
         scaleTween.Kill(); // Stop the infinite loop
         Destroy(soul);
         
+        // 6.5 Wait before win
+        yield return new WaitForSeconds(2f);
+        
         // 7. WIN!
         FindObjectOfType<MirelightGameManager>().PlayerWon();
     }
