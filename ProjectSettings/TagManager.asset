@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Border
   - Projectile
+  - SoulFairy
+  - BorderEnemy
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Frog
   - Projectile
   - Enemy
-  - 
+  - SoulFairy
   - 
   - 
   - 

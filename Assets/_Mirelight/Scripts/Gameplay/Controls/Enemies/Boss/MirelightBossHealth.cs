@@ -1,5 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using BossLevel.Gameplay.Controls;
 using UnityEngine;
+using DG.Tweening;
 
 public class MirelightBossHealth : MonoBehaviour, IMirelightDamageable
 {
@@ -12,6 +15,8 @@ public class MirelightBossHealth : MonoBehaviour, IMirelightDamageable
     public bool isDead = false;
     [SerializeField] private MirelightBossController bossController;
     private Collider2D col;
+    
+    [SerializeField] private GameObject soulFairyPrefab;
 
     private void Awake()
     {
@@ -43,19 +48,75 @@ public class MirelightBossHealth : MonoBehaviour, IMirelightDamageable
         isDead = true;
         Debug.Log("Boss died!");
 
-        // מנטרל את ה-Controller
         if (bossController != null)
             bossController.enabled = false;
 
-        // מנטרל את הקוליידר כדי שפרויקטילים לא ימשיכו לפגוע בו
         if (col != null)
             col.enabled = false;
 
-        // שולח הודעה לנצחון
-        MirelightGameManager.Instance?.PlayerWon();
+        if (spriteRenderer != null)
+            spriteRenderer.enabled = false;
 
-        // הורס את עצמו
-        Destroy(gameObject);
+        if (soulFairyPrefab != null)
+        {
+            Vector3 fairyPosition = transform.position + new Vector3(0f, 0f, 1f); 
+            GameObject soul = Instantiate(soulFairyPrefab, fairyPosition, Quaternion.identity);
+            StartCoroutine(SoulRoutine(soul));
+        }
+
+        else
+        {
+            Destroy(gameObject);
+            MirelightGameManager.Instance?.PlayerWon();
+        }
+    }
+    
+    IEnumerator SoulRoutine(GameObject soul)
+    {
+        // 1. Find the SoulPath inside the prefab
+        Transform pathRoot = soul.transform.Find("SoulPath");
+
+        if (pathRoot == null)
+        {
+            Debug.LogError("SoulPath not found inside soul prefab!");
+            yield break;
+        }
+
+        // 2. Collect all child positions as path points
+        List<Vector3> path = new List<Vector3>();
+        foreach (Transform point in pathRoot)
+        {
+            path.Add(point.position);
+        }
+
+        // 3. Animate movement along path
+        Tween moveTween = soul.transform
+            .DOPath(path.ToArray(), 8f, PathType.CatmullRom)
+            .SetEase(Ease.InOutSine)
+            .OnWaypointChange(index =>
+            {
+                if (index == 3) // When reaching Point4 (index starts at 0)
+                {
+                    SpriteRenderer sr = soul.GetComponentInChildren<SpriteRenderer>();
+                    if (sr != null) sr.flipX = true;
+                }
+            });
+
+        // 4. Breathing scale animation
+        Tween scaleTween = soul.transform
+            .DOScale(1.1f, 2f)
+            .SetLoops(-1, LoopType.Yoyo)
+            .SetEase(Ease.InOutSine);
+
+        // 5. Wait for path movement to finish
+        yield return moveTween.WaitForCompletion();
+
+        // 6. Cleanup
+        scaleTween.Kill(); // Stop the infinite loop
+        Destroy(soul);
+        
+        // 7. WIN!
+        FindObjectOfType<MirelightGameManager>().PlayerWon();
     }
 
     private System.Collections.IEnumerator FlashHurtColor(float duration)
