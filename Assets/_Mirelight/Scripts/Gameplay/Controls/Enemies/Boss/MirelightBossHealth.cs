@@ -119,7 +119,9 @@ public class MirelightBossHealth : MonoBehaviour, IMirelightDamageable
         yield return new WaitForSeconds(2f);
         
         // 7. WIN!
-        FindObjectOfType<MirelightGameManager>().PlayerWon();
+        // FindObjectOfType<MirelightGameManager>().PlayerWon();
+        Object.FindFirstObjectByType<MirelightGameManager>().PlayerWon();
+
     }
 
     private System.Collections.IEnumerator FlashHurtColor(float duration)

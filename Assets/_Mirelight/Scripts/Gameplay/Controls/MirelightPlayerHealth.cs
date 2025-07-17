@@ -34,6 +34,8 @@ public class MirelightPlayerHealth : MonoBehaviour
     {
         isDead = true;
         playerController.PlayDeathAnimation();
-    }
+        
+        Object.FindFirstObjectByType<MirelightGameManager>().PlayerLost();
 
+    }
 }
