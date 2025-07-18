@@ -74,6 +74,12 @@ namespace BossLevel.Gameplay.Controls
                 collision.collider.GetComponent<MirelightPlayerHealth>()?.TakeDamage(1);
             }
         }
+        
+        public void SetPlayerTarget(Transform target)
+        {
+            playerTarget = target;
+        }
+
 
     }
 }

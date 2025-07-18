@@ -18,4 +18,10 @@ public class PlayerHealthUI : MonoBehaviour
             healthText.text = " HP: " + playerHealth.currentHealth.ToString();
         }
     }
+    
+    public void SetPlayerHealth(MirelightPlayerHealth newHealth)
+    {
+        playerHealth = newHealth;
+    }
+
 }

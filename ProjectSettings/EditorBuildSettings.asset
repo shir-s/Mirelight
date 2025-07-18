@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/_Mirelight/Scences/Loading.unity
     guid: 38ad60b6dc5a0de4ba599d5074c596c2
   - enabled: 1
+    path: Assets/_Mirelight/Scences/GameScene.unity
+    guid: 7e349aa2ce1622e4b99281c4d54c6885
+  - enabled: 1
     path: Assets/_Mirelight/Scences/GameLevel.unity
     guid: 35da49c1453f21049ad65c7b321130d6
   m_configObjects:
