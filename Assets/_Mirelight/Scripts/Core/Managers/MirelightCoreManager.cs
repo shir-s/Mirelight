@@ -30,6 +30,27 @@ namespace BossLevel.Core.Managers
                     }
                 }
             }
+            
+            // Load and place PlayerHealthText under the existing Canvas
+            GameObject canvas = GameObject.Find("Canvas Overlay");
+            if (canvas != null)
+            {
+                GameObject healthPrefab = Resources.Load<GameObject>("UI/PlayerHealthText");
+                if (healthPrefab != null)
+                {
+                    GameObject healthText = Instantiate(healthPrefab, canvas.transform);
+                    var ui = healthText.GetComponent<PlayerHealthUI>();
+                    var playerHealth = player.GetComponent<MirelightPlayerHealth>();
+                    if (ui != null && playerHealth != null)
+                    {
+                        ui.SetPlayerHealth(playerHealth); 
+                    }
+                }
+                else
+                {
+                    Debug.LogError("[MirelightCoreManager] Could not find PlayerHealthText prefab in Resources/UI");
+                }
+            }
 
             // Load and place enemy
             GameObject enemy = LoadAndPlace("CoreObjects/Enemy", new Vector3(-80f, -40f, 0));
