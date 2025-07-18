@@ -20,7 +20,7 @@ namespace BossLevel.Core
             Debug.Log($"Current scene index: {currentIndex}");
             int nextIndex = currentIndex + 1;
             Debug.Log($"Trying to load next scene index: {nextIndex}");
-            SceneManager.LoadScene(1); // במקום current + 1
+            SceneManager.LoadScene(1); 
 
         }
 

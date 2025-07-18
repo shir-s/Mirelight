@@ -28,14 +28,6 @@ namespace _Mirelight.Scripts.Gameplay.Controls.Enemies.Frogs
             }
         }
 
-        // private void Die()
-        // {
-        //     isDying = true;
-        //     animator.SetTrigger("Die");
-        //     GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-        //     GetComponent<Collider2D>().enabled = false;
-        // }
-
         private void Die()
         {
             isDying = true;

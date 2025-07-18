@@ -48,7 +48,7 @@ namespace BossLevel.Gameplay.Controls
             else if (collision.collider.CompareTag("Player"))
             {
                 collision.collider.GetComponent<MirelightPlayerHealth>()?.TakeDamage(1);
-                frogHealth?.TakeDamage(1); // הצפרדע מתה
+                frogHealth?.TakeDamage(1); 
             }
             else if (collision.collider.CompareTag("Border"))
             {

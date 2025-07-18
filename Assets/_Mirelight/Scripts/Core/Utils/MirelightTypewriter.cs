@@ -7,18 +7,7 @@ public class MirelightTypewriter : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public string fullText;
     public float typingSpeed = 0.05f;
-    public float delayBeforeStart = 5f;
-
-    // private void Start()
-    // {
-    //     StartCoroutine(StartWithDelay());
-    // }
-    //
-    // private IEnumerator StartWithDelay()
-    // {
-    //     yield return new WaitForSeconds(delayBeforeStart);
-    //     StartTyping();
-    // }
+    // public float delayBeforeStart = 5f;
 
     public void StartTyping()
     {

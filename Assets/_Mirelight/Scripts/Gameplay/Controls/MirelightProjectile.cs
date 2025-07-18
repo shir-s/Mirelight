@@ -46,7 +46,5 @@ namespace BossLevel.Gameplay.Controls
                 boss.TakeDamage(1);
             }
         }
-
-
     }
 }
