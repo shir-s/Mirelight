@@ -98,5 +98,15 @@ https://youtu.be/GgwsGhOCF7Q
 Gameplay Video-
 https://youtu.be/Y9EpDf4Dg7M
 
+--------------------------------
+UML Diagram
+--------------------
+The following UML diagram provides an overview of the main classes, interfaces, and relationships in Mirelight, particularly focusing on the boss logic, phases, and interactions:
+
+
+<img width="1048" height="352" alt="UML" src="https://github.com/user-attachments/assets/5d4512d9-ee98-43d6-8daf-c99636b9a276" />
+
+
+
 
 
