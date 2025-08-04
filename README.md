@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner2.jpg" alt="Mirelight Logo" width="700"/>
+  <img src="git banner.png" alt="Mirelight Logo" width="700"/>
 </p>
 
 
