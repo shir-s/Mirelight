@@ -1,7 +1,14 @@
+<p align="center">
+  <img src="banner2.jpg" alt="Mirelight Logo" width="700"/>
+</p>
+
+
 SHIR SEROUSSI - Mirelight
 ------------------------------------
 Mirelight
 ------------------------
+
+
 Embark on a glowing journey through a mysterious rainy world, filled with poisonous frogs and magical fairies…
 
 ------------------------------------
